@@ -9,11 +9,30 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+XOR, AND, and OR gates are connected to inputs A,B, and C. Outputs of SUM and C-Out represented by LEDS should turn on and of with different combinations of inputs
 
 ## How to test
+Set the inputs and check the outputs match the following truth table:
 
-Explain how to use your project
+| A | B | C | SUM | C-OUT |
+___________________________
+| 0 | 0 | 0 |  0  |   0   |
+___________________________
+| 0 | 0 | 1 |  1  |   0   |
+___________________________
+| 0 | 1 | 0 |  1  |   0   |
+___________________________
+| 0 | 1 | 1 |  0  |   1   |
+___________________________
+| 1 | 0 | 0 |  1  |   0   |
+___________________________
+| 1 | 0 | 1 |  0  |   1   |
+___________________________
+| 1 | 1 | 0 |  0  |   1   |
+___________________________
+| 1 | 1 | 1 |  1  |   1   |
+___________________________
+
 
 ## External hardware
 
